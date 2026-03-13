@@ -1,0 +1,54 @@
+/* Importando a fonte Inter do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+/* ==========================================
+   VARIÁVEIS DE IDENTIDADE VISUAL (CSS Custom Properties)
+   ========================================== */
+:root {
+    /* Cores Principais */
+    --primary-color: #00AEEF; /* Azul vibrante (tecnologia/confiança) */
+    --primary-dark: #0077cc;
+    
+    /* Tons de Fundo e Texto (Modo Claro) */
+    --bg-color: #f8fafc; /* Fundo principal (quase branco) */
+    --surface-color: #ffffff; /* Fundo dos cards (branco puro) */
+    --text-primary: #0f172a; /* Texto principal (quase preto) */
+    --text-secondary: #64748b; /* Texto de apoio (cinza ardósia) */
+    
+    /* Espaçamentos e Bordas */
+    --border-radius: 12px;
+    --transition-speed: 0.3s;
+}
+
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Comportamento Suave de Rolagem */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Container Global para centralizar o conteúdo */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Utilitários de Texto */
+.highlight {
+    color: var(--primary-color);
+}
