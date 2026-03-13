@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Eric Mangolin - Desenvolvedor Full Stack especializado em sistemas SaaS, aplicações web e transformação digital.">
+    
+    <title>Eric Mangolin | Desenvolvedor Full Stack Sênior</title>
+    <meta name="description" content="Portfólio de Eric Mangolin - Desenvolvedor Full Stack Sênior especializado em React, Node.js, PHP, Python, desenvolvimento de SaaS e transformação digital.">
+    <meta name="keywords" content="Desenvolvedor Full Stack, Frontend, Backend, React, Node.js, PHP, Python, SaaS, PWA, SEO, UX/UI, Desenvolvedor Mato Grosso, Programador Sênior, Mentor de TI">
     <meta name="author" content="Eric André Mangolin">
+    <meta name="robots" content="index, follow">
 
-    <title>Eric Mangolin | Desenvolvedor Full Stack</title>
+    <meta property="og:title" content="Eric Mangolin | Desenvolvedor Full Stack">
+    <meta property="og:description" content="Transformando ideias em plataformas, sistemas SaaS e experiências digitais. Veja meu portfólio.">
+    <meta property="og:image" content="https://ericportfolio.github.io/assets/img/og-capa.jpg">
+    <meta property="og:url" content="https://ericportfolio.github.io/">
+    <meta property="og:type" content="profile">
 
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
 
     <header class="navbar">
         <div class="container nav-container">
             <a href="#" class="logo">Eric<span class="highlight">.dev</span></a>
-
             <nav class="nav-links">
                 <a href="#sobre">Sobre</a>
                 <a href="#skills">Stack Técnico</a>
@@ -35,41 +40,208 @@
             <div class="container hero-container">
                 <div class="hero-content fade-in-up">
                     <p class="hero-greeting">Olá, eu sou o Eric Mangolin <span class="wave">👋</span></p>
-                    <h1 class="hero-title">Design de Produtos e Sistemas para <span class="highlight">Impulsionar
-                            Negócios</span></h1>
-                    <p class="hero-subtitle">Transformando ideias em plataformas, sistemas SaaS e experiências digitais
-                        que modernizam negócios e otimizam processos.</p>
-
+                    <h1 class="hero-title">Design de Produtos e Sistemas para <span class="highlight">Impulsionar Negócios</span></h1>
+                    <p class="hero-subtitle">Transformando ideias em plataformas, sistemas SaaS e experiências digitais que modernizam negócios e otimizam processos.</p>
+                    
                     <div class="hero-cta">
-                        <a href="#projetos" class="btn-primary">Ver Projetos Desenvolvidos</a>
-                        <a href="#skills" class="btn-secondary">Ver Stack Profissional</a>
+                        <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                        <a href="assets/img/projects/CV_EricMangolim.pdf" target="_blank" download class="btn-secondary">
+                            <i class="fa-solid fa-file-pdf"></i> Baixar Currículo
+                        </a>
                     </div>
-
+                    
                     <div class="social-links-hero">
-                        <a href="https://linkedin.com/in/ericmangolin" target="_blank" aria-label="LinkedIn"><i
-                                class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://github.com/ericmangolin" target="_blank" aria-label="GitHub"><i
-                                class="fa-brands fa-github"></i></a>
-                        <a href="mailto:ericmangolin@gmail.com" aria-label="Email"><i
-                                class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/ericmangolim" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ericmangolin" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/midiakit.idg/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://lattes.cnpq.br/3611387670950967" target="_blank" aria-label="Lattes"><i class="fa-solid fa-graduation-cap"></i></a>
+                        <a href="#contato" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
                     </div>
                 </div>
-
+                
                 <div class="hero-image fade-in-up delay-1">
                     <div class="image-wrapper">
-                        <img src="assets/img/perfil.png" alt="Eric Mangolin - Desenvolvedor Full Stack"
-                            class="profile-img">
-
+                        <img src="assets/img/perfil.png" alt="Foto de Eric Mangolin - Desenvolvedor" class="profile-img">
                         <div class="tech-badge badge-1"><i class="fa-brands fa-react"></i></div>
                         <div class="tech-badge badge-2"><i class="fa-brands fa-php"></i></div>
                         <div class="tech-badge badge-3"><i class="fa-solid fa-database"></i></div>
+                        <div class="tech-badge badge-4"><i class="fa-brands fa-node-js"></i></div>
+                        <div class="tech-badge badge-5"><i class="fa-brands fa-python"></i></div>
+                        <div class="tech-badge badge-6"><i class="fa-brands fa-js"></i></div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator fade-in-up delay-1">
+                <a href="#sobre" aria-label="Rolar para baixo"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <section id="sobre" class="about section-padding">
+            <div class="container">
+                <h2 class="section-title">Sobre <span class="highlight">Mim</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Sou desenvolvedor Full Stack com foco em criar soluções digitais completas — do frontend ao backend. Tenho paixão por transformar ideias em plataformas ágeis, sistemas SaaS e experiências digitais que impulsionam negócios locais e otimizam processos.</p>
+                        <p>Com forte atuação no desenvolvimento de soluções para empresas, saúde pública e educação, busco sempre arquiteturas escaláveis, foco total na experiência do usuário e, acima de tudo, na geração de resultados reais.</p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-box">
+                            <h3 class="stat-number">15+</h3>
+                            <p class="stat-label">Anos de Experiência<br>em TI e Sistemas</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="stat-number">6+</h3>
+                            <p class="stat-label">Sistemas Web e SaaS<br>Desenvolvidos</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="stat-number">1k+</h3>
+                            <p class="stat-label">Alunos e Profissionais<br>Mentorados</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="stat-number">100%</h3>
+                            <p class="stat-label">Foco em Resultados<br>e Escalabilidade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Stack <span class="highlight">Técnico e Habilidades</span></h2>
+                <p class="section-subtitle text-center">As tecnologias e experiências que utilizo para trazer projetos à vida.</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Frontend</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-brands fa-react"></i> React.js & Next.js</li>
+                            <li><i class="fa-brands fa-js"></i> JavaScript & TypeScript</li>
+                            <li><i class="fa-brands fa-html5"></i> HTML5 & CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-gears"></i></div>
+                        <h3>Backend & Cloud</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-brands fa-php"></i> PHP & Python</li>
+                            <li><i class="fa-brands fa-node-js"></i> Node.js & APIs REST</li>
+                            <li><i class="fa-solid fa-database"></i> SQL, MySQL & Firebase</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-wrench"></i></div>
+                        <h3>Ferramentas</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+                            <li><i class="fa-brands fa-figma"></i> Figma (UI/UX)</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i> Mobile First & SEO</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>Educação & Liderança</h3>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-chalkboard-user"></i> Professor & Tutor EAD</li>
+                            <li><i class="fa-solid fa-users-viewfinder"></i> Mediação Tecnológica</li>
+                            <li><i class="fa-solid fa-book-open-reader"></i> Mentoria de Equipes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Projetos em <span class="highlight">Destaque</span></h2>
+                <p class="section-subtitle text-center">Soluções desenvolvidas para resolver problemas reais e escalar negócios.</p>
+                
+                <h3 class="category-title">SaaS & Sistemas Web</h3>
+                <div class="projects-grid">
+                    <article class="project-card"><div class="project-image"><img src="assets/img/projects/GarantiaPro.jpg" alt="GarantiaPro"></div><div class="project-content"><h3>GarantiaPro</h3><p class="project-description">SaaS desenvolvido para gestão completa de assistência técnica e controle de garantias.</p><div class="tech-tags"><span>PHP</span><span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>SQL/Firebase</span><span>React</span><span>Node.js</span></div><div class="project-links"><a href="https://garantiapro.midiakit.tec.br/" class="btn-primary" target="_blank">Ver Projeto</a></div></div></article>
+                    <article class="project-card"><div class="project-image"><img src="assets/img/projects/guia-feliz-natal.jpg" alt="Guia Feliz Natal"></div><div class="project-content"><h3>Guia Comercial Feliz Natal</h3><p class="project-description">PWA com geolocalização, promoções e vitrines digitais de empresas locais.</p><div class="tech-tags"><span>PHP</span><span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>SQL/Firebase</span><span>React</span><span>Node.js</span></div><div class="project-links"><a href="https://feliznatal.midiakit.tec.br/" class="btn-primary" target="_blank">Ver Projeto</a></div></div></article>
+                    <article class="project-card"><div class="project-image"><img src="assets/img/projects/sos-fn.jpg" alt="SOS-FN"></div><div class="project-content"><h3>SOS-FN (Ordem de Serviço)</h3><p class="project-description">Automação de processos técnicos para administração pública, reduzindo o tempo de resposta em 80%.</p><div class="tech-tags"><span>PHP</span><span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>SQL/Firebase</span><span>React</span><span>Node.js</span></div><div class="project-links"><a href="https://sosfn.ddns.net/" class="btn-primary" target="_blank">Ver Projeto</a></div></div></article>
+                </div>
+
+                <div id="hidden-categories" style="display: none; opacity: 0; transition: opacity 0.5s ease;">
+                    <h3 class="category-title">Cardápios Digitais & Food Service</h3>
+                    <div class="projects-grid">
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_Faganello.jpg" alt="Faganello"></div><div class="project-content"><h3>Faganello Pizzaria</h3><p class="project-description">Cardápio interativo com lógica de frações e cálculo automático de preços.</p><div class="tech-tags"><span>HTML/CSS</span><span>JavaScript</span><span>UX/UI</span><span>E-commerce</span><span>SEO Local</span><span>API</span></div><div class="project-links"><a href="https://faganello.obamenu.com/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_Colonial.jpg" alt="Colonial"></div><div class="project-content"><h3>Colonial Marmitaria</h3><p class="project-description">Cardápio digital intuitivo com opções de tamanhos e sistema de pedidos online.</p><div class="tech-tags"><span>HTML/CSS</span><span>JavaScript</span><span>UX/UI</span><span>E-commerce</span><span>SEO Local</span><span>API</span></div><div class="project-links"><a href="https://colonialmarmitaria.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/amjb.jpg" alt="AMJB" onerror="this.src='https://via.placeholder.com/600x400?text=AMJB'"></div><div class="project-content"><h3>AMJB Distribuidora</h3><p class="project-description">Plataforma focada em produtos para churrasco com opções de combos e WhatsApp.</p><div class="tech-tags"><span>HTML/CSS</span><span>JavaScript</span><span>UX/UI</span><span>E-commerce</span><span>SEO Local</span><span>API</span></div><div class="project-links"><a href="https://amjb.obamenu.com/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_Novo.jpg" alt="Mercado Novo"></div><div class="project-content"><h3>Mercado Novo Açougue</h3><p class="project-description">Site sofisticado para açougue especializado em cortes premium.</p><div class="tech-tags"><span>HTML/CSS</span><span>JavaScript</span><span>UX/UI</span><span>E-commerce</span><span>SEO Local</span><span>API</span></div><div class="project-links"><a href="https://mercadonovoacougue.smallbio.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_MJ.jpg" alt="MJ Defumados"></div><div class="project-content"><h3>MJ Defumados</h3><p class="project-description">Site com identidade visual vibrante focado em produtos artesanais.</p><div class="tech-tags"><span>HTML/CSS</span><span>JavaScript</span><span>UX/UI</span><span>E-commerce</span><span>SEO Local</span><span>API</span></div><div class="project-links"><a href="https://mjembutidos.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/sabor-amazonia.jpg" alt="Sabor Amazônia" onerror="this.src='https://via.placeholder.com/600x400?text=Sabor+Amazônia'"></div><div class="project-content"><h3>Sabor da Amazônia</h3><p class="project-description">E-commerce de açaí com sistema de personalização de pedidos.</p><div class="tech-tags"><span>HTML/CSS</span><span>JavaScript</span><span>UX/UI</span><span>E-commerce</span><span>SEO Local</span><span>API</span></div><div class="project-links"><a href="https://sabordaamazonia.pedidoon.net/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                    </div>
+
+                    <h3 class="category-title">Sites Institucionais & E-commerce</h3>
+                    <div class="projects-grid">
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Otica_vip.jpg" alt="Ótica VIP"></div><div class="project-content"><h3>Ótica VIP</h3><p class="project-description">Site institucional com sistema de agendamento online de exames.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://oticavip.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_Seneki.jpg" alt="Seneki Seguros"></div><div class="project-content"><h3>Seneki Seguros</h3><p class="project-description">Site estruturado para conversão de leads e captação de clientes.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://senekiseguros.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/RZ_joias.jpg" alt="RZ Joias"></div><div class="project-content"><h3>RZ Jóias e Semijoias</h3><p class="project-description">Catálogo digital elegante com categorias e opções de parcelamento.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://rzjoias.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Bolivar.jpg" alt="Clínica Dr. Bolívar"></div><div class="project-content"><h3>Clínica Dr. Bolívar</h3><p class="project-description">Site médico transmitindo confiança, com serviços de endoscopia.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://clinicadeendoscopia.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_Oficina.jpg" alt="Oficina da Lata"></div><div class="project-content"><h3>Oficina da Lata</h3><p class="project-description">Sistema web com área restrita para gestão interna de processos.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://oficinadalata.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/Card_JK.jpg" alt="JK Caçambas"></div><div class="project-content"><h3>JK Caçambas</h3><p class="project-description">Site institucional otimizado para solicitação de orçamento de locação.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://jkcacambas.servicosgold.com.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                        <article class="project-card"><div class="project-image"><img src="assets/img/projects/midiakit.jpg" alt="Midiakit" onerror="this.src='https://via.placeholder.com/600x400?text=MIDIAKIT'"></div><div class="project-content"><h3>MIDIAKIT</h3><p class="project-description">Portal institucional oferecendo serviços de tecnologia e marketing.</p><div class="tech-tags"><span>SEO</span><span>Copywriting</span><span>Design</span><span>HTML/CSS</span><span>PHP</span><span>SQL</span><span>Segurança</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a href="https://midiakit.tec.br/" class="btn-secondary" target="_blank">Acessar Site</a></div></div></article>
+                    </div>
+                </div>
+                
+                <div class="text-center" style="margin-top: 50px;">
+                    <button id="btn-toggle-projects" class="btn-secondary" onclick="toggleProjects()">Ver portfólio completo <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Vamos <span class="highlight">Conversar?</span></h2>
+                <p class="section-subtitle text-center">Preencha o formulário abaixo e entrarei em contato para discutirmos seu próximo projeto.</p>
+                
+                <div class="contact-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Como posso ajudar no seu projeto?"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-block">
+                            Enviar Mensagem <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i>
+                        </button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
 
+    <footer class="footer">
+        <div class="container footer-container text-center">
+            <h2 class="footer-title">Pronto para o próximo nível?</h2>
+            <p class="footer-subtitle">Estou disponível para novas oportunidades, desenvolvimento de projetos sob medida e parcerias em tecnologia.</p>
+            
+            <div class="footer-social mt-4">
+                <a href="https://www.linkedin.com/in/ericmangolim" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/ericmangolin" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/midiakit.idg/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://midiakit.tec.br/" target="_blank" aria-label="Midiakit"><i class="fa-solid fa-globe"></i></a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eric Mangolin. Todos os direitos reservados. Feito com código limpo e dedicação.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="assets/js/main.js"></script>
 </body>
-
 </html>
